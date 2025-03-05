@@ -1,10 +1,10 @@
-# Turbo Native app template for Xcode
+# Hotwire Native app template for Xcode
 
-A custom Xcode project template to get started with Turbo Native development.
+A custom Xcode project template to get started with Hotwire Native development.
 
-![Turbo Native App template in Xcode](.github/images/turbo-native-app-template.png)
+![Hotwire Native App template in Xcode](.github/images/turbo-native-app-template.png)
 
-Once installed, this template can be used directly in Xcode to generate a new Turbo Native project. It removes boilerplate around creating new Xcode projects and integrating with Turbo Native.
+Once installed, this template can be used directly in Xcode to generate a new Hotwire Native project. It removes boilerplate around creating new Xcode projects and integrating with Hotwire Native.
 
 > **Note**: This project is an experiment with frequent, breaking changes as I learn how Xcode templates work.
 
@@ -28,18 +28,18 @@ Open Xcode and create a new project via File → New → Project…
 
 Select iOS from the tabs across the top and scroll to the bottom.
 
-Select _Turbo Native App_, click Next, enter the name of your app, and click Next again.
+Select _Hotwire Native App_, click Next, enter the name of your app, and click Next again.
 
 You might also need to add an organization identifier if you aren't signed in to an App Store Connect team in Xcode.
 
-### Add the Turbo Native package dependency
+### Add the Hotwire Native package dependency
 
 Unfortunately, Xcode project templates don't directly support Swift packages. So we have to add it manually.
 
 ![Add the turbo-ios Swift package to an Xcode project](.github/images/add-turbo-ios-swift-package-via-file.gif)
 
 1. Click File → Add Packages…
-2. In the search box in the upper right, enter: `https://github.com/hotwired/turbo-ios`
+2. In the search box in the upper right, enter: `[[https://github.com/hotwired/turbo-ios](https://github.com/hotwired/hotwire-native-ios)]`
 3. Click Add Package
 4. Click Add Package, again
 
